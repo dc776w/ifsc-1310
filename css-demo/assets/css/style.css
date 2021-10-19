@@ -27,9 +27,12 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
     line-height:1.4;
+    color:#191970;
 }
 header.primary {
   background: #3b638b;
+  background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
   text-align: center;
   color: #ffffff;
   text-shadow: 2px 2px #000000;
@@ -109,12 +112,78 @@ header.primary nav a:active {
   justify-content:space-between;
 }
 
+#content article.post{
+  width:30%;
+  box-shadow:0 4px 8px rgba(0,0,0,.4);
+  padding:.7em;
+  font-size:.7rem;
+  border-radius:10px;
+  transition:.5s;
+}
 
+#content article.post:hover{
+  box-shadow:0 8px 16px rgba(0,0,0,.4);
+}
 
+article.post figure{
+  margin:0;
+}
 
+article.post time, article.post figcaption, article.post .post-meta{
+  font-size:.8em;
+  text-transform:uppercase;
+  color:#708090;
+}
 
+article.post img{
+  border-radius:150px;
+}
 
+#content article a:link, #content article a:visited{
+  color:#708090
+}
 
+article.post a:hover, article.post a:active{
+ text-decoration:none;
+}
+
+/* Attribute Selectors */
+aside[role="complementary"]{
+  background-color:#483d8b;
+  color:#ffffff;
+  padding:2.2rem;
+}
+
+aside .container{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+aside article.widget{
+  width:45%;
+}
+
+aside a.read-more:link {
+  color:white;
+  display:inline-block;
+  margin-top:10px;
+}
+
+aside article.widget footer{
+  display:none;
+}
+
+#colophon {
+  background-color:#483d8b;
+  padding:20px;
+  margin:0;
+  text-align:center;
+  color:#ffffff;
+  font-size:.7rem;
+  text-transform:uppercase;
+  text-shadow:1px 1px #000000;
+}
 
 /* Media Query Example */
 
@@ -140,5 +209,6 @@ header.primary nav a:active {
   
   
   
+
   
 }
