@@ -23,6 +23,64 @@ img{
   max-width:960px;
 }
 
+.img-right{
+  float:right;
+  border:1px solid #c0c0c0;
+  padding:5px 5px 20px 5px;
+  border-radius:6px;
+  margin-left:20px;
+}
+
+.img-left{
+  float:left;
+  border:1px solid #c0c0c0;
+  padding:5px 5px 20px 5px;
+  border-radius:6px;
+  margin-right:20px;
+}
+
+.img-center{
+  display:block;
+  border:1px solid #c0c0c0;
+  padding:5px;
+  border-radius:6px;
+  margin:20px auto;
+}
+
+#additional-elements h3{
+  border-left: 10px solid #3b638b;
+  padding:5px 10px;;
+}
+
+table{
+  width:100%;
+  border:1px solid #c0c0c0;
+  border-collapse:collapse;
+}
+table caption{
+  color:#3b638b;
+  padding:10px;
+  font-weight:bold;
+  font-size:1.4rem;
+}
+table tr:nth-child(even){
+  background-color:rgba(0,0,0,.1);
+}
+
+table tr:hover{
+  background-color:rgba(0,0,0,.2);
+}
+
+table td{
+  border:1px solid #c0c0c0;
+  padding:5px;}
+table th{
+  background-color:#556b2f;
+  color:#fff;
+  width:33%;
+  padding:10px;
+}
+
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
@@ -145,6 +203,63 @@ article.post img{
 
 article.post a:hover, article.post a:active{
  text-decoration:none;
+}
+
+#additional-elements h2{
+  color:#3b638b;
+  border-bottom:1px dotted #c0c0c0;
+}
+
+#additional-elements a:link, #additional-elements a:visited{
+  color:#3b638b;
+}
+
+#additional-elements a:hover, #additional-elements a:active{
+  text-decoration:none;
+}
+
+#additional-elements ol{
+  list-style-type:upper-roman;
+}
+
+#additional-elements ul{
+  list-style-type:square;
+}
+
+#additional-elements ul ul {
+  list-style-type: disc;
+}
+
+#additional-elements dt{
+  font-weight:bold;
+  font-size:1.2rem;
+  margin-top:20px;
+}
+
+#additional-elements dd{
+  margin:0;
+}
+
+/* Adjacent Sibling Combinator */
+
+dd + dt {
+  margin-top:20px;
+}
+
+blockquote{
+  background:rgba(0,0,0,.15);
+  padding: 20px 40px;
+  border:5px double #c0c0c0;
+  border-radius:16px;
+  font-size:1.2em;
+}
+
+blockquote cite{
+  display:block;
+  text-align:right;
+  font-weight:bold;
+  font-size:.6rem;
+  padding-top:1rem;
 }
 
 /* Attribute Selectors */
