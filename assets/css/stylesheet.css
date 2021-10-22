@@ -7,3 +7,25 @@ body {
   list-style-type:upper-roman;
 }
 
+article.post a:hover, article.post a:active{
+ text-decoration:none;
+}
+
+#list-elements article.post:hover{
+  box-shadow:0 8px 16px rgba(0,0,0,.4);
+}
+
+#list-elements article a:link, #list-elements article a:visited{
+  color:#b22222
+}
+
+#colophon {
+  background-color:#4b0082;
+  padding:1px;
+  margin:0;
+  text-align:center;
+  color:#ffffff;
+  font-size:2rem;
+  text-transform:uppercase;
+  text-shadow:1px 1px #000000;
+}
