@@ -51,7 +51,7 @@ body {
 }
 
 header.primary {
-  background-color: #181c1f;
+  background-color: 	#2f4f4f;
   text-align: center;
   color: #ffffff;
   text-shadow: 2px 2px #000000;
@@ -118,7 +118,7 @@ header.primary nav a:link,
 header.primary nav a:visited {
   color: white;
   text-decoration: none;
-  background-color: #000000;
+  background-color: #2f4f4f;
   background-color: rgba(142, 166, 184, 0.4);
   padding: 8px 16px;
   border-radius: 10px;
@@ -145,7 +145,7 @@ section#content h2{
 /* ------------- Articles --------------- */
 
 section#articles {
-  background: #181c1f;
+  background: #2f4f4f;
 }
 
 section#articles .container {
@@ -160,7 +160,7 @@ section#articles .container {
 section#articles h2,
 #content h2 {
   flex: 0 0 100%;
-  color: #33536b;
+  color: #2f4f4f;
   text-align: center;
   font-family: "Goldman", cursive;
   font-size: 2em;
@@ -195,7 +195,7 @@ section#articles h2 {
 #articles article footer {
   font-size: 0.8em;
   color: #c0c0c0;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 #articles .post a:link,
@@ -228,7 +228,7 @@ section#articles h2 {
 
 /* Attribute Selector */
 aside[role="complementary"] {
-  background-color: #181c1f;
+  background-color: #2f4f4f;
   color: #ffffff;
   padding: 2.5em;
 }
@@ -283,7 +283,7 @@ aside article footer {
 /*------ Footer ------*/
 
 footer#colophon {
-  background-color: #1b2c38;
+  background-color: #778899;
 }
 
 #colophon h6 {
