@@ -1,0 +1,13 @@
+body {
+  font-family: 'Lato';
+  margin: 30px 10px;
+}
+
+.replace-scott {
+  width: 264px;
+  height: 106px;
+  background: url("../img/SitePointLogo.png");
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
