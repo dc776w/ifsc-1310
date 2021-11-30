@@ -143,6 +143,12 @@ section#content h2{
   color: #33536b;
   text-align:center;
 }
+section#content h3{
+  font-family: "Goldman", cursive;
+  font-size: 1.9em;
+  color: #33536b;
+  text-align:center;
+}
 
 /* ------------- Articles --------------- */
 
