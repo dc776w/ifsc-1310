@@ -7,14 +7,14 @@ body {
 }
 .gallery {
 	background-color: #CCC;
-	width: 730px;
+	width: 700px;
 	margin-top: 40px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 1px solid #999;
+	border: 20px solid #999;
 	height: 516px;
 	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
-	border-radius: 4px;
+	border-radius: 30px;
 }
 .gallery img {
 	margin: 15px;
